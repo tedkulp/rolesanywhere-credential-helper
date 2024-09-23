@@ -21,7 +21,7 @@ import (
 
 const DefaultPort = 9911
 const DefaultHopLimit = 64
-const LocalHostAddress = "127.0.0.1"
+const LocalHostAddress = "0.0.0.0"
 
 var RefreshTime = time.Minute * time.Duration(5)
 
